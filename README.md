@@ -10,8 +10,9 @@ This project is built entirely using **Make.com**.
 
 ```text
 [ ZenQuotes API ] ──( HTTP GET )──> [ Make.com Engine ] ──( Telegram Bot API )──> [ Your Telegram Chat ]
+```
 
-
+---------------------
 ## Prerequisites & Telegram Bot Setup
 
 Before importing the blueprint, you need to create your Telegram Bot and retrieve your Telegram account's Chat ID.
@@ -29,6 +30,7 @@ Before importing the blueprint, you need to create your Telegram Bot and retriev
 3. Copy the numerical value inside the Id: field (e.g., 123456789). This tells your bot exactly where to send the daily message.
 
 
+----------------------
 ## Deploying the Workflow to Make
 
 ### 1. Import the Blueprint to Make.com
